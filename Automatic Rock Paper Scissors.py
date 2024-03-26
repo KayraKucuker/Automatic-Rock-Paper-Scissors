@@ -16,10 +16,7 @@ if plrchoice == "paper":
   b = 2
 if plrchoice == "scissors":
   b = 3
-
-if plrchoice != "rock" or "paper" or "scissors":
-    print("Not a valid input!")
-elif plrchoice == "rock" or "paper" or "scissors":
+if plrchoice == "rock" or "paper" or "scissors":
    print("Bot's choice:", botchoice)
    print("  ")
    print("Your Choice:", plrchoice)
